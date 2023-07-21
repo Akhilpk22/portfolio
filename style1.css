@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* relative by related to the child */
+    position: relative;
+
+}
+.navbar{
+    width: 85%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#image{
+    width: 150px;
+}
+.list{
+    display: inline;
+    list-style: none;
+    margin: 0px  20px;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.link:hover{
+    background-color: rgb(237, 151, 151);
+    font-size: 20px;
+    color: rgb(255, 3, 3);
+}
+.title{
+    margin:  10% 0px 0px 9%;
+}
+.title-h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#lastname{
+    color: orange;
+}
+.DOWNLOAD{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 30px 0px 30px 0px ;
+}
+.images{
+    position: absolute;
+    bottom: 0px;
+    height: 80%;
+    width: 45%;
+    right: 30px;
+
+}
+.imagegroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;  
+    transform: translate(-50%);
+    transition: bottom 1s,left 2s;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #gril{
+    left: 40%;
+}
+#about{
+    margin: 25% 8% 0% 8%;
+}
+.about-head{
+    text-align: center;
+    font-size: 20px;
+}
+.span-1{
+    color: rgb(239, 183, 80);
+}
+#h2-1{
+    font-size: 40px;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.about-img img{
+    width: 80%;
+
+    border-radius: 10px;
+}
+.about-details{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+.information{
+    margin: 1rem 0 0 0;
+}
+.info-box{
+    display: flex;
+    justify-items: center   ;
+    margin: 0 0 1rem 0;
+}
+.info-span{
+    margin-left: 16px;
+}
+#skill{
+    margin: 8% 8% 0px 8%;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skill-img>img{
+    width: 90%;
+    padding-left: 4rem;
+
+
+}
+
+
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.bar-content{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0px;
+
+}
+.HTML-bar{
+    background-color: orange;
+    width: 94%;
+}
+.CSS-bar{
+    background-color: orange;
+    width: 88%;
+}
+.JS-bar{
+    background-color: orange;
+    width: 78%;
+}
+.REACT-bar{
+    background-color:orange;
+    width:99% ;
+}
+
+
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  
+  
+}
+.icon,.up-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px ;
+   
+   
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,orange,rgb(247, 245, 245));
+}
+
+.icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(20deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+}
+
+    
+.footer-p{
+    text-align: center;
+    margin-top: 40px;
+
+    font-weight: bold;
+}
+.up-arrow{
+    float: right;
+    background-image: linear-gradient(to bottom right,yellow,orange,rgb(247, 245, 245));
+    margin: 0px 20px 20px 0px;
+}
+.up-arrow:hover i{
+    color: white;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
